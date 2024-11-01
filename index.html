@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>subscription</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/globals.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Pricing built for businesses of all sizes.</h1>
+    <h2 class="header__title-name">Always know what you’ll pay.</h2>
+  </header>
+  <main>
+    <section class="container">
+      <ul class="card-list">
+        <li class="card-list-item">
+          <article class="price__personal card">
+            <a class="logo logo__personal">
+              <img class="personal__image" src="./images/snail.png" alt="Personal logo">
+            </a>
+            <h3 class="card__title text">Personal <br>
+              <span style="font-size: 12px;font-weight: 400;">Best Choice for Individuals</span>
+            </h3>
+            <a class="price">
+              <span class="money">&#36</span> 99</a>
+            <ul class="cards__list_description no-bullets">
+              <li class="cards__item_description">Free domain</li>
+              <li class="cards__item_description">Monthyl Bandwidth 1GB</li>
+            </ul>
+            <button class="button" type="button" onclick="window['dialog-id'].showModal()"
+              aria-controls="dialog-id">Start Free Trial</button>
+          </article>
+        </li>
+        <li class="card-list-item">
+          <article class="price__business card">
+            <a class="logo logo__business">
+              <img class="business__image" src="./images/car.png" alt="business logo">
+            </a>
+            <h3 class="card__title text">Business <br>
+              <span style="font-size: 12px;font-weight: 400;">Small Businesses & Freelancers</span>
+            </h3>
+            <a class="price">
+              <span style="vertical-align: top; font-size: 16px; font-weight: 500;">&#36</span> 179 </a>
+            <ul class="cards__list_description no-bullets">
+              <li class="cards__item_description">Free domain</li>
+              <li class="cards__item_description">Monthyl Bandwidth 1GB</li>
+              <li class="cards__item_description">SSD Storage 1TB</li>
+            </ul>
+            <dialog class="dialog" id="dialog-id">
+              <div class="preview">
+                <img src="./images/subscription.jpg" alt="subscription">
+                <button class="close" type="button" onclick="window['dialog-id'].close();">Отменить подписку</button>
+              </div>
+            </dialog>
+            <button class="button" type="button" onclick="window['dialog-id'].showModal()"
+              aria-controls="dialog-id">Start Free Trial</button>
+          </article>
+        </li>
+        <li class="card-list-item">
+          <article class="price__developer card">
+            <label class="popular-badge">★ Most Popular</label>
+            <a class="logo logo__developer">
+              <img class="developer__image" src="./images/bus.png" alt="Developer logo">
+            </a>
+            <h3 class="card__title text">Developer <br>
+              <span style="font-size: 12px;font-weight: 400;">Agencies and Developers</span>
+            </h3>
+            <a class="price">
+              <span style="vertical-align: top; font-size: 16px; font-weight: 500;">&#36</span> 269 </a>
+            <ul class="cards__list_description no-bullets">
+              <li class="cards__item_description">Free domain</li>
+              <li class="cards__item_description">Monthyl Bandwidth 1GB</li>
+              <li class="cards__item_description">SSD Storage 1TB</li>
+              <li class="cards__item_description">SSL Certificate</li>
+            </ul>
+            <button class="button" type="button" onclick="window['dialog-id'].showModal()"
+              aria-controls="dialog-id">Start Free Trial</button>
+          </article>
+        </li>
+        <li class="card-list-item">
+          <article class="price__agency card">
+            <a class="logo logo__agency">
+              <img class="agency__image" src="./images/weapon.png" alt="Agency logo">
+            </a>
+            <h3 class="card__title text">Agency <br>
+              <span style="font-size: 12px;font-weight: 400;">Design a custom package</span>
+            </h3>
+            <a class="price">
+              <span style="vertical-align: top; font-size: 16px; font-weight: 500;">&#36</span> 349 </a>
+            <ul class="cards__list_description no-bullets">
+              <li class="cards__item_description">Free domain</li>
+              <li class="cards__item_description">Monthyl Bandwidth 1TB</li>
+              <li class="cards__item_description">SSD Storage 1TB</li>
+              <li class="cards__item_description">SSL Certificate</li>
+            </ul>
+            <button class="button" type="button" onclick="window['dialog-id'].showModal()"
+              aria-controls="dialog-id">Start Free Trial</button>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

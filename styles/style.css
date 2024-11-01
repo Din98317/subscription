@@ -1,0 +1,222 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 137px;
+  padding-left: 79px;
+  line-height: 5px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.header__title-name {
+  color: rgba(93, 112, 133, 1);
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 422px;
+  margin-top: 44px;
+  margin-bottom: 0;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 266px 266px 266px 266px;
+  gap: 6px;
+}
+
+.logo {
+  align-self: center;
+  justify-self: center;
+}
+
+.logo__personal {
+  width: 197px;
+  margin-top: 39px;
+}
+
+.logo__business {
+  width: 172px;
+  margin-top: 46px;
+}
+
+.logo__developer {
+  width: 180px;
+  margin-bottom: 35px;
+}
+
+.logo__agency {
+  width: 171px;
+  margin-top: 63px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 101px 38px 102px 118px;
+  gap: 16px;
+  min-height: 601px;
+}
+
+.price__personal {
+  /* flex-direction: column;
+  justify-content: space-between; */
+  padding-top: 63px;
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 99.36%);
+  border-radius: 1%;
+}
+
+.price__business {
+ 
+  padding-top: 50px;
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+  border-radius: 1%;
+  grid-template-rows: 116px 38px 100px 119px;
+}
+
+.price__developer {
+  
+  
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+  border-radius: 1%;
+  grid-template-rows: 103px 49px 37px 98px 121px;
+}
+
+.price__agency {
+  
+  padding-top: 50px;
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+  border-radius: 1%;
+  grid-template-rows: 117px 33px 108px 115px;
+}
+
+.card__title {
+  padding-left: 35px;
+  font-weight: 500;
+  font-size: 21px;
+  text-align: left;
+}
+
+.card__title-name {
+  margin: 1px;
+  padding-left: 35px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.price {
+  padding-top: 35px;
+  padding-left: 37px;
+  color: white;
+  font-weight: 700;
+  font-size: 67px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.money {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+vertical-align: top;
+
+}
+
+.option {
+  color: white;
+  line-height: 34px;
+}
+
+.text {
+  color: white;
+  line-height: 19px;
+}
+
+.button {
+  align-self: center;
+  width: 196px;
+  height: 40px;
+  justify-self: center;
+  border: 2px solid white;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.button:hover {
+background-color: white;
+color: #3dacfc;
+}
+
+.popular-badge {
+  width: 266px;
+  height: 31px;
+  border-radius: 2px 2px 0px 0px;
+  padding-top: 9px;
+  padding-right: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  background: linear-gradient(180deg, #63d6fe 0%, #5dd4f8 100%);
+  color: white;
+}
+
+
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.3);
+  backdrop-filter: blur(7px);
+} 
+
+.preview {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+  background-size: cover;
+  background-position: center;
+}
+
+.close {
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: rgb(251, 222, 222);
+}
+
+ul {
+  list-style: none;
+}
+
+ul.no-bullets li::before {
+  content: "✓";
+}
+
+
+.cards__list_description {
+  padding-left: 0;
+  list-style-image: url(../images/XMLID_89_.png);
+  row-gap: 19px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 121px;
+  color: white;
+  margin-left: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 15px;
+}
+
+
